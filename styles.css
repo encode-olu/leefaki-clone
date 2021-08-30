@@ -1,0 +1,41 @@
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    /* Hearder */
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 30px;
+        align-items: center;
+    }
+    
+    .header a {
+        margin-right: 20px;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 15px;
+        text-decoration: inherit;
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+    }
+    
+    .hearder_rigth {
+        display: flex;
+        align-items: center;
+        min-width: 14vw;
+        justify-content: space-between;
+    }
+    
+    .hearder_rigth .header_apps {
+        margin-right: 10px;
+    }
+    
+    .mainbody {}
